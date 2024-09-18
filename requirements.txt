@@ -2,13 +2,11 @@ black
 flake8
 ipython
 jupyterlab
-loguru
 matplotlib
 notebook
 numpy
 pandas
 python-dotenv
 scikit-learn
-typer
 seaborn
 -e .

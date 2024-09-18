@@ -22,6 +22,14 @@ def get_requirements(file_path: str) -> List[str]:
     return requirements
 
 
+# Use os.path.join to construct the file path
+requirements_path = os.path.join(
+    "/Users/georgensamuel",
+    "End to End ML Project",
+    "project-template",
+    "requirements.txt",
+)
+
 # Fetch requirements
 install_requires = get_requirements(requirements_path)
 
