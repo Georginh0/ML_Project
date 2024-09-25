@@ -9,4 +9,6 @@ pandas
 python-dotenv
 scikit-learn
 seaborn
--e .
+catboost
+xgboost
+#-e .

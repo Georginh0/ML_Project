@@ -28,5 +28,7 @@ exclude = '''
 '''
 
 [tool.ruff.lint.isort]
+
 known_first_party = ["Src"]
+
 force_sort_within_sections = true

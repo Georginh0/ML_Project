@@ -1,5 +1,5 @@
 import sys
-import traceback
+import traceback  # noqa: F401
 
 
 def error_message_detail(error):
